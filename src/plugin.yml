@@ -1,0 +1,9 @@
+name: GalexRealmsPunishment
+version: 0.0.1
+author: Swoggle
+main: me.swoggle.galexrealmspunishment.Main
+commands:
+    punish:
+          description: Displays a GUI that contains the punishments.
+          usage: /<command> [Player]
+          aliases: [pun]
