@@ -1,5 +1,5 @@
 name: GalexRealmsPunishment
-version: 0.0.1
+version: 1.0.1
 author: Swoggle
 main: me.swoggle.galexrealmspunishment.Main
 commands:
@@ -7,3 +7,21 @@ commands:
           description: Displays a GUI that contains the punishments.
           usage: /<command> [Player]
           aliases: [pun]
+          permission: galexrealmspunishment.punish
+
+permissions:
+    galexrealsmpunishment.*:
+        default: op
+        description: Give players with op everything by default
+    galexrealmspunishment.kick:
+        default: false
+        description: Give players ability to see kick option in the gui
+    galexrealmspunishment.mute:
+            default: false
+            description: Give players ability to see mute options in the gui
+    galexrealmspunishment.ban:
+            default: false
+            description: Give players ability to see ban options in the gui
+    galexrealmspunishment.permban:
+            default: false
+            description: Give players ability to see permaban option in the gui
